@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import axios from 'axios';
-import api from '../api.jsx'
 
 const LoginForm = ({ setToken }) => {                   /* 3 */
   const [username, setUsername] = useState('');
